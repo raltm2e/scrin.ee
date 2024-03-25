@@ -5,3 +5,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('CNCTW_Scrin_Logo.webp');
+    }
+}
