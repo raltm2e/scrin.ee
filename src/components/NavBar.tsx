@@ -9,7 +9,9 @@ const NavBar = () => {
       <Navbar.Group align={Alignment.LEFT}>
         <NavbarHeading
           className='text-m font-bold uppercase tracking-wider text-gray-600'
-        >IMU data</NavbarHeading>
+        >
+          SCRIN
+        </NavbarHeading>
         <Navbar.Divider/>
         <NavbarHeading>
           <Link
@@ -26,7 +28,7 @@ const NavBar = () => {
               className='bp4-button bp4-minimal bp4-icon-label'
               to='/about'
           >
-            About
+            Status
           </Link>
         </NavbarHeading>
       </Navbar.Group>

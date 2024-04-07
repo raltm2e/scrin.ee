@@ -22,8 +22,8 @@ const About = () => {
   return (
     <PageHolder>
       <Card className={styles.card}>
-        <H1>About</H1>
-        <p>Server status: {fetchedData}</p>
+        <H1>Status</H1>
+        <p>{fetchedData}</p>
       </Card>
     </PageHolder>
   );
